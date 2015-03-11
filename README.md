@@ -33,3 +33,21 @@ Hella crazy for mobile!!
 `something:nth(child of .foo)`
 
 `table.foo :matches(td, th) p.bar`
+
+Variables!!
+```css
+:root {
+--header-color: #006;
+}
+a {color: var(--main-color)}
+```
+
+Colors!!
+
+`#0f08`: `#rgba`
+
+`hwb()`: hue-whiteness-blackness
+
+`gray()`
+
+`color()`: like `lighten, darken`
