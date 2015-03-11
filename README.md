@@ -51,3 +51,7 @@ Colors!!
 `gray()`
 
 `color()`: like `lighten, darken`
+
+### Media Queries
+Pointer: `course` or `fine`
+Hover: `no` or `yes`
