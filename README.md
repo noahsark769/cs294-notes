@@ -29,3 +29,7 @@ grid-area: a;
 ```
 
 Hella crazy for mobile!!
+
+`something:nth(child of .foo)`
+
+`table.foo :matches(td, th) p.bar`
