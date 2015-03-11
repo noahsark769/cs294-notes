@@ -23,4 +23,9 @@ Layout direction: `flex-flow` will do layout direction! Woaaaahhh.
 `flex`: make elements grow
 
 ```css
+grid-template: "a c"
+               "c d";
+grid-area: a;
 ```
+
+Hella crazy for mobile!!
