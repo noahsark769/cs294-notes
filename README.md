@@ -34,7 +34,7 @@ Hella crazy for mobile!!
 
 `table.foo :matches(td, th) p.bar`
 
-Variables!!
+### Variables!!
 ```css
 :root {
 --header-color: #006;
@@ -42,7 +42,7 @@ Variables!!
 a {color: var(--main-color)}
 ```
 
-Colors!!
+### Colors!!
 
 `#0f08`: `#rgba`
 
@@ -55,3 +55,17 @@ Colors!!
 ### Media Queries
 Pointer: `course` or `fine`
 Hover: `no` or `yes`
+
+### Transforms
+Motion path!
+
+### Houdini task force
+Works on making CSS extensible
+
+`@custom-media foo (some media stuff)`
+`@media ("foo") {}`
+
+```javascript
+CSS.customMedia.set("foo", true);
+```
+Also: custom pseudo classes, layouts, paints (!!)
