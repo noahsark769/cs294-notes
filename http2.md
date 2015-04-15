@@ -44,4 +44,16 @@ With http2, you can ask for all resources at once, so latency is not as much.
 7. PRIORITY: Changed my mind, i want kittens.jpg right now.
 8. PUSH_PROMISE_: can give the structure of what a response for a given path would get.
 
-HPACK: new compression format. Encodes header:value pairs. Algo uses a table with common keys. Also a dynamic table which is adjusted with the requests that you make.
+HPACK: new compression format. Encodes header:value pairs. Algo uses a table with common keys. Also a dynamic table which is adjusted with the requests that you make. Uses huffman encoding to make common strings small.
+
+Header compression: subsequent requests only need to be a diff!! WOAH.
+
+#### Upgrading
+For HTTPS sites, it's easy because SSL has stuff to agree on the language to speak. HTTP pretty much will never work unless the browser implemented some random part of the spec.
+
+HTTP2 always runs on tcp:443.
+
+#### Next steps after HTTP/2.0
+Packet loss is a real problem, byte alignment is important.
+
+QUIC is HTTP2/TLS/TCP (with TCPFO) built into one protocol. Works over UDP, because internet only knows how to speak TCP and UDP.
