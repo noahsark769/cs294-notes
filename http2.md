@@ -1,4 +1,5 @@
 # HTTP/2.0
+##### Brad Fitz (github: bradfitz), Google
 
 #### HTTP history
 In the beginning, there was gopher. Lines started with `\Reference` and response had a char at the
