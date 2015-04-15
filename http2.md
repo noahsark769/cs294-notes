@@ -44,6 +44,7 @@ With http2, you can ask for all resources at once, so latency is not as much.
 6. WINDOW_UPDATE:_: flow control. "I am willing to get 600 bytes of kittens.jpg, and the rest later."
 7. PRIORITY: Changed my mind, i want kittens.jpg right now.
 8. PUSH_PROMISE_: can give the structure of what a response for a given path would get.
+9. RST_FRAME_: reset
 
 HPACK: new compression format. Encodes header:value pairs. Algo uses a table with common keys. Also a dynamic table which is adjusted with the requests that you make. Uses huffman encoding to make common strings small.
 
